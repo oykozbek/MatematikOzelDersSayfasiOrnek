@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Özel Ders</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg bnavbar-light bg-light fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">Matematik Özel Ders</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav fw-bold">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Anasayfa</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">Hakkımda</a>
+              </li>
+              <li class="nav-item"></li>
+                <a class="nav-link" href="#details">Ders Detayları</a>
+              </li>
+              <li class="nav-item"></li>
+                <a class="nav-link" href="#contact">İletişim</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <section class="min-vh-100 d-flex flex-column justify-content-end align-items-center" id="home" style="background-image: url('img/animation.png'); background-size: cover;">
+        <div class="text-center">
+            <p class="text-black fw-bolder display-3 mb-3">Öykü Özbek</p>
+            <h6 class="fs-3 text-second text-black mb-4">Matematik Koçu</h6>
+        </div>
+
+        <a class="btn btn-danger rounded-pill mb-2" href="#about">Hakkımda</a>
+
+    </section>
+
+    <section class="container py-5" id="about">
+        <div class="text-center py-5">
+            <h2 class="text-uppercase fw-bold py-5">Hakkımda</h2>
+            <p>2023 yılında Hacettepe Üniversitesi Matematik Bölümünden mezun oldum. 2018 yılından bu yana her seviyeden onlarca öğrencinin matematik koçluğunu üstleniyorum.</p>
+        </div>
+    </section>
+
+    <section id="details" class="py-5 bg-dark">
+        <div class="container">
+            <div class="text-center py-5">
+                <h2 class="fw-bolder text-uppercase text-light">ders detaylarım</h2>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <img src="img/online.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title text-center py-2">Online Dersler</h5>
+                            <p>Öğrencinin iki cihazla bağlantı kurduğu derslerdir.</p>
+                            <a href="" class="btn btn-light">Devamını oku...</a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <img src="img/classroom.jpeg" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title text-center py-2">Yüz Yüze Dersler</h5>
+                            <p>Öğrencinin evinde, kendi çalışma ortamında işlenen derslerdir.</p>
+                            <a href="" class="btn btn-light">Devamını oku...</a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <img src="img/facetoface.png" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title text-center py-2">Hibrit Dersler</h5>
+                            <p>Hem yüz yüze hem online gerçekleştirilen derslerdir.</p>
+                            <a href="" class="btn btn-light">Devamını oku...</a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="bg-dark py-5" id="contact">
+        <div class="container">
+            <div class="text-white text-center py-5">
+                <h2 class="fw-bolder text-uppercase">iletişim</h2>
+            </div>
+            <div class="col-xxl-6 col-xl-7 col-lg-8 col-md-9 col-sm-10 col-11 mx-auto">
+                <form class="text-white">
+                    <div class="mb-3">
+                        <label class="form-label">Ad Soyad</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Email</label>
+                        <input type="email" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Konu</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Detay</label>
+                        <textarea type="text" class="form-control" rows="10"></textarea>
+                    </div>
+                    <button class="btn btn-danger btn-lg">Gönder</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-light">
+        <div class="text-center">
+            <p class="fs-5 py-3 mb-0">Tüm hakları saklıdır | <a class="text-danger fst-italic"
+                    href="https://www.oykuozbek.com/">Matematik Özel Ders</a></p>
+        </div>
+
+    </footer>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html> 
